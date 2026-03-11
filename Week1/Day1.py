@@ -76,3 +76,4 @@ print(f"The average marks of the entire class: {class_average:.2f}")
 
 
 
+

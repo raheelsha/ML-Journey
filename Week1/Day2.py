@@ -74,3 +74,4 @@ df['Marks'] = df['Marks'].fillna(average_marks)
 
 print("\n--- After Filling (with average) ---")
 print(df)
+

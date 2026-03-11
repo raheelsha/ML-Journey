@@ -3,96 +3,96 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# #Matplotlib (Line Plot)
-# days=[1,2,3,4,5,6,7,8]
-# scores=[60,65,70,80,85,90,95,99]
-# plt.plot(days,scores)
-# plt.title("My Learning Process")
-# plt.xlabel("Days")
-# plt.ylabel("Scores")
-# plt.show()
+#Matplotlib (Line Plot)
+days=[1,2,3,4,5,6,7,8]
+scores=[60,65,70,80,85,90,95,99]
+plt.plot(days,scores)
+plt.title("My Learning Process")
+plt.xlabel("Days")
+plt.ylabel("Scores")
+plt.show()
 
-# #Bar chart
-# Subjects=["English","Ai","ML","Math"]
-# Marks=[50,60,70,80]
-# plt.bar(Subjects,Marks, color = "blue")
-# plt.title("Marks by subject")
-# plt.xlabel("Subjects")
-# plt.ylabel("Marks")
-# plt.show()
+#Bar chart
+Subjects=["English","Ai","ML","Math"]
+Marks=[50,60,70,80]
+plt.bar(Subjects,Marks, color = "blue")
+plt.title("Marks by subject")
+plt.xlabel("Subjects")
+plt.ylabel("Marks")
+plt.show()
 
-# #Histogram used to see data distribution — used constantly in ML:
-# scores= np.random.randint(50,100,100)
-# plt.hist(scores,bins=10,color="green",edgecolor="Black")
-# plt.title("Score Dirstrubtion")
-# plt.xlabel("Score")
-# plt.ylabel("Frequency")
-# plt.show()
+#Histogram used to see data distribution — used constantly in ML:
+scores= np.random.randint(50,100,100)
+plt.hist(scores,bins=10,color="green",edgecolor="Black")
+plt.title("Score Dirstrubtion")
+plt.xlabel("Score")
+plt.ylabel("Frequency")
+plt.show()
 
 
 
-# # Create a blank figure
-# plt.figure(figsize=(8, 4))
-# plt.axis('off')  # Hide the axes/grid
+# Create a blank figure
+plt.figure(figsize=(8, 4))
+plt.axis('off')  # Hide the axes/grid
 
-# # Add your name
-# plt.text(0.5, 0.5, 'RAHEEL', 
-#          fontsize=80, 
-#          fontweight='bold', 
-#          color='#1f77b4',       # A nice professional blue
-#          ha='center',           # Horizontal alignment
-#          va='center',           # Vertical alignment
-#          family='serif',        # Font style
-#          bbox=dict(facecolor='none', edgecolor='#1f77b4', pad=10, lw=2))
+# Add your name
+plt.text(0.5, 0.5, 'RAHEEL', 
+         fontsize=80, 
+         fontweight='bold', 
+         color='#1f77b4',       # A nice professional blue
+         ha='center',           # Horizontal alignment
+         va='center',           # Vertical alignment
+         family='serif',        # Font style
+         bbox=dict(facecolor='none', edgecolor='#1f77b4', pad=10, lw=2))
 
-# plt.show()
-# #Scatter Plot
-# height = [150, 160, 165, 170, 175, 180, 185]
-# weight = [50, 60, 65, 70, 75, 80, 85]
-# plt.scatter(height,weight,color="red")
-# plt.title("Height Vs Weight")
-# plt.xlabel("Height(cm)")
-# plt.ylabel("Weight(kg)")
-# plt.show()
+plt.show()
+#Scatter Plot
+height = [150, 160, 165, 170, 175, 180, 185]
+weight = [50, 60, 65, 70, 75, 80, 85]
+plt.scatter(height,weight,color="red")
+plt.title("Height Vs Weight")
+plt.xlabel("Height(cm)")
+plt.ylabel("Weight(kg)")
+plt.show()
 
-# #Seaborn
-# import seaborn as sns
-# import pandas as pd
-# data={
-#     "name":["Raheel","Malik","Shaukat","Ali"],
-#     "score":[90,100,80,75]
-# }
-# df=pd.DataFrame(data)
-# sns.barplot(x="name",y="score",data=df)
-# plt.title("Student Score")
-# plt.show()
+#Seaborn
+import seaborn as sns
+import pandas as pd
+data={
+    "name":["Raheel","Malik","Shaukat","Ali"],
+    "score":[90,100,80,75]
+}
+df=pd.DataFrame(data)
+sns.barplot(x="name",y="score",data=df)
+plt.title("Student Score")
+plt.show()
 
-# #Heatmap
-# data = {
-#     "marks": [85, 90, 78, 92, 88],
-#     "attendance": [90, 85, 70, 95, 80],
-#     "assignments": [80, 95, 75, 90, 85]
-# }
-# df=pd.DataFrame(data)
-# correlation=df.corr()
-# sns.heatmap(correlation,annot=True, cmap="coolwarm")
-# plt.title("Feature Correlation Heatmap")
-# plt.show()
+#Heatmap
+data = {
+    "marks": [85, 90, 78, 92, 88],
+    "attendance": [90, 85, 70, 95, 80],
+    "assignments": [80, 95, 75, 90, 85]
+}
+df=pd.DataFrame(data)
+correlation=df.corr()
+sns.heatmap(correlation,annot=True, cmap="coolwarm")
+plt.title("Feature Correlation Heatmap")
+plt.show()
 
-# #Boxplot
-# data = {
-#     "subject": ["Math", "Math", "Math", "AI", "AI", "AI", "English", "English", "English"],
-#     "marks": [85, 90, 78, 92, 88, 95, 70, 75, 80]
-# }
-# df = pd.DataFrame(data)
-# sns.boxplot(x="subject",y="marks", data=df)
-# plt.title("Marks distribution over the subject")
-# plt.show()
+#Boxplot
+data = {
+    "subject": ["Math", "Math", "Math", "AI", "AI", "AI", "English", "English", "English"],
+    "marks": [85, 90, 78, 92, 88, 95, 70, 75, 80]
+}
+df = pd.DataFrame(data)
+sns.boxplot(x="subject",y="marks", data=df)
+plt.title("Marks distribution over the subject")
+plt.show()
 
-# #Pairplot
-# df=sns.load_dataset("iris")
-# sns.pairplot(df,hue="species")
-# plt.show()
+#Pairplot
+df=sns.load_dataset("iris")
+sns.pairplot(df,hue="species")
+plt.show()
 
 
 #Exercise 1 
@@ -136,6 +136,8 @@ corr = df.corr()
 sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f")
 plt.title("Correlation Heatmap of Student Metrics")
 plt.show()
+
+
 #Excercise 4
 import matplotlib.pyplot as plt
 
@@ -152,3 +154,4 @@ plt.ylabel("Score Achieved")
 plt.grid(True, linestyle='--', alpha=0.6)
 
 plt.show()
+
