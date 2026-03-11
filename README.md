@@ -38,4 +38,4 @@ built during my internship at **NetSol Technologies**.
 - 🎓 Computer Science Student
 - 💼 AI/ML Intern at NetSol Technologies
 - 📍 Lahore, Pakistan
-- 🔗 [LinkedIn](https://www.linkedin.com/in/raheel-shaukat)
+- 🔗 [LinkedIn](www.linkedin.com/in/raheel-shaukat-b93a79304)
