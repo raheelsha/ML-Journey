@@ -1,10 +1,8 @@
 # 🤖 ML Journey — Raheel Shaukat
-
 A documented journey of learning Machine Learning and AI from scratch, 
 built during my internship at **NetSol Technologies**.
 
 ## 📚 Weekly Progress
-
 ### Week 1 — Python & Data Fundamentals
 - ✅ Day 1: Python Basics (Variables, Lists, Dictionaries, Loops)
 - ✅ Day 2: Functions & Object Oriented Programming
@@ -38,4 +36,4 @@ built during my internship at **NetSol Technologies**.
 - 🎓 Computer Science Student
 - 💼 AI/ML Intern at NetSol Technologies
 - 📍 Lahore, Pakistan
-- 🔗 [LinkedIn](www.linkedin.com/in/raheel-shaukat-b93a79304)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/raheel-shaukat-b93a79304)
