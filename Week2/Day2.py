@@ -208,3 +208,4 @@ plt.ylabel("Frequency")
 plt.legend()
 plt.savefig("exercise4_histogram.png")
 plt.close()
+
